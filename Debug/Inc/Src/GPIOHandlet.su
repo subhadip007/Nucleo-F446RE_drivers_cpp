@@ -1,0 +1,17 @@
+GPIOHandlet.cpp:11:1:GPIO_Handle_t::GPIO_Handle_t()	16	static
+GPIOHandlet.cpp:22:1:GPIO_Handle_t::~GPIO_Handle_t()	16	static
+GPIOHandlet.cpp:22:1:virtual GPIO_Handle_t::~GPIO_Handle_t()	16	static
+GPIOHandlet.cpp:27:1:GPIO_PinConfig_t::GPIO_PinConfig_t()	16	static
+GPIOHandlet.cpp:31:1:GPIO_PinConfig_t::~GPIO_PinConfig_t()	16	static
+GPIOHandlet.cpp:31:1:virtual GPIO_PinConfig_t::~GPIO_PinConfig_t()	16	static
+GPIOHandlet.cpp:49:6:void GPIO_Handle_t::GPIO_PeriClkCntrl(GPIO_regdef_t*, uint8_t)	24	static
+GPIOHandlet.cpp:139:6:void GPIO_Handle_t::GPIO_Init(GPIO_Handle_t*)	24	static
+GPIOHandlet.cpp:248:6:void GPIO_Handle_t::GPIO_DeInit(GPIO_regdef_t*)	16	static
+GPIOHandlet.cpp:299:9:uint8_t GPIO_Handle_t::GPIO_ReadIPin(GPIO_regdef_t*, uint8_t)	32	static
+GPIOHandlet.cpp:323:10:uint16_t GPIO_Handle_t::GPIO_ReadIPort(GPIO_regdef_t*)	24	static
+GPIOHandlet.cpp:348:6:void GPIO_Handle_t::GPIO_WriteOPin(GPIO_regdef_t*, uint8_t, uint8_t)	24	static
+GPIOHandlet.cpp:378:6:void GPIO_Handle_t::GPIO_WriteOPort(GPIO_regdef_t*, uint16_t)	24	static
+GPIOHandlet.cpp:399:6:void GPIO_Handle_t::GPIO_ToggleOPin(GPIO_regdef_t*, uint8_t)	24	static
+GPIOHandlet.cpp:420:6:void GPIO_Handle_t::GPIO_IRQ_ITConfig(uint8_t, uint8_t)	16	static
+GPIOHandlet.cpp:478:6:void GPIO_Handle_t::GPIO_IRQConfig(uint8_t, uint32_t)	32	static
+GPIOHandlet.cpp:503:6:void GPIO_Handle_t::GPIO_IRQHandling(uint8_t)	16	static
