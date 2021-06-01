@@ -19,7 +19,7 @@ private:
 	/*
 	 __vo uint8_t GPIO_PinNumber;							// CAN BE ANYONE OF @GPIO_PIN_NUMBERS
 	 __vo uint8_t GPIO_PinMode;								// CAN BE ANYONE OF @GPIO_MODES
-	 __vo uint8_t GPIO_PinSpeed;								// CAN BE ANYONE OF @GPIO_SPEED
+	 __vo uint8_t GPIO_PinSpeed;							// CAN BE ANYONE OF @GPIO_SPEED
 	 __vo uint8_t GPIO_PinPuPdControl;						// CAN BE ANYONE OF @GPIO_PULL_UP_PULL_DOWN
 	 __vo uint8_t GPIO_PinOPType;							// CAN BE ANYONE OF @GPIO_OUTPUT_TYPE
 	 __vo uint8_t GPIO_PinAltFunMode;
@@ -27,7 +27,6 @@ private:
 */
 
 protected:
-
 
 public:
 	 __vo uint8_t GPIO_PinNumber;							// CAN BE ANYONE OF @GPIO_PIN_NUMBERS

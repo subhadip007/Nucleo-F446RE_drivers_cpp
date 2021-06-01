@@ -75,6 +75,31 @@ Discarded input sections
                 0x0000000000000000       0x5c Inc/Src/GPIOHandlet.o
  .text._ZN13GPIO_Handle_t16GPIO_IRQHandlingEh
                 0x0000000000000000       0x4c Inc/Src/GPIOHandlet.o
+ .group         0x0000000000000000        0xc Inc/Src/tomtom.o
+ .text          0x0000000000000000        0x0 Inc/Src/tomtom.o
+ .data          0x0000000000000000        0x0 Inc/Src/tomtom.o
+ .bss           0x0000000000000000        0x0 Inc/Src/tomtom.o
+ .text._ZN6tomtomC2Ev
+                0x0000000000000000       0x20 Inc/Src/tomtom.o
+ .text._ZN6tomtomD2Ev
+                0x0000000000000000       0x20 Inc/Src/tomtom.o
+ .text._ZN6tomtomD0Ev
+                0x0000000000000000       0x20 Inc/Src/tomtom.o
+ .rodata._ZTV6tomtom
+                0x0000000000000000       0x10 Inc/Src/tomtom.o
+ .debug_info    0x0000000000000000      0x195 Inc/Src/tomtom.o
+ .debug_abbrev  0x0000000000000000      0x13d Inc/Src/tomtom.o
+ .debug_aranges
+                0x0000000000000000       0x30 Inc/Src/tomtom.o
+ .debug_ranges  0x0000000000000000       0x20 Inc/Src/tomtom.o
+ .debug_macro   0x0000000000000000       0x1b Inc/Src/tomtom.o
+ .debug_macro   0x0000000000000000      0xb3e Inc/Src/tomtom.o
+ .debug_line    0x0000000000000000       0xae Inc/Src/tomtom.o
+ .debug_str     0x0000000000000000     0x31ac Inc/Src/tomtom.o
+ .comment       0x0000000000000000       0x7c Inc/Src/tomtom.o
+ .debug_frame   0x0000000000000000       0x84 Inc/Src/tomtom.o
+ .ARM.attributes
+                0x0000000000000000       0x39 Inc/Src/tomtom.o
  .group         0x0000000000000000        0xc Src/main.o
  .group         0x0000000000000000        0xc Src/main.o
  .group         0x0000000000000000        0xc Src/main.o
@@ -376,6 +401,7 @@ LOAD /home/ark/st/stm32cubeide_1.5.0/plugins/com.st.stm32cube.ide.mcu.externalto
 LOAD /home/ark/st/stm32cubeide_1.5.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 LOAD /home/ark/st/stm32cubeide_1.5.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.linux64_1.5.0.202011040924/tools/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
 LOAD Inc/Src/GPIOHandlet.o
+LOAD Inc/Src/tomtom.o
 LOAD Src/main.o
 LOAD Src/syscalls.o
 LOAD Src/sysmem.o
